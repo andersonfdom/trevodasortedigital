@@ -1,0 +1,16 @@
+D:\Projetos\trevodasortedigital\TrevoDaSorteDigital.Dao\bin\Release\net5.0\TrevoDaSorteDigital.Dao.deps.json
+D:\Projetos\trevodasortedigital\TrevoDaSorteDigital.Dao\bin\Release\net5.0\TrevoDaSorteDigital.Dao.runtimeconfig.json
+D:\Projetos\trevodasortedigital\TrevoDaSorteDigital.Dao\bin\Release\net5.0\TrevoDaSorteDigital.Dao.runtimeconfig.dev.json
+D:\Projetos\trevodasortedigital\TrevoDaSorteDigital.Dao\bin\Release\net5.0\TrevoDaSorteDigital.Dao.dll
+D:\Projetos\trevodasortedigital\TrevoDaSorteDigital.Dao\bin\Release\net5.0\TrevoDaSorteDigital.Dao.pdb
+D:\Projetos\trevodasortedigital\TrevoDaSorteDigital.Dao\obj\Release\net5.0\TrevoDaSorteDigital.Dao.csproj.AssemblyReference.cache
+D:\Projetos\trevodasortedigital\TrevoDaSorteDigital.Dao\obj\Release\net5.0\TrevoDaSorteDigital.Dao.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\trevodasortedigital\TrevoDaSorteDigital.Dao\obj\Release\net5.0\TrevoDaSorteDigital.Dao.AssemblyInfoInputs.cache
+D:\Projetos\trevodasortedigital\TrevoDaSorteDigital.Dao\obj\Release\net5.0\TrevoDaSorteDigital.Dao.AssemblyInfo.cs
+D:\Projetos\trevodasortedigital\TrevoDaSorteDigital.Dao\obj\Release\net5.0\TrevoDaSorteDigital.Dao.csproj.CoreCompileInputs.cache
+D:\Projetos\trevodasortedigital\TrevoDaSorteDigital.Dao\obj\Release\net5.0\TrevoDaSorteDigital.Dao.sourcelink.json
+D:\Projetos\trevodasortedigital\TrevoDaSorteDigital.Dao\obj\Release\net5.0\TrevoDaSorteDigital.Dao.dll
+D:\Projetos\trevodasortedigital\TrevoDaSorteDigital.Dao\obj\Release\net5.0\refint\TrevoDaSorteDigital.Dao.dll
+D:\Projetos\trevodasortedigital\TrevoDaSorteDigital.Dao\obj\Release\net5.0\TrevoDaSorteDigital.Dao.pdb
+D:\Projetos\trevodasortedigital\TrevoDaSorteDigital.Dao\obj\Release\net5.0\TrevoDaSorteDigital.Dao.genruntimeconfig.cache
+D:\Projetos\trevodasortedigital\TrevoDaSorteDigital.Dao\obj\Release\net5.0\ref\TrevoDaSorteDigital.Dao.dll

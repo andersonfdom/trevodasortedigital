@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrevoDaSorteDigital.Api", "TrevoDaSorteDigital.Api\TrevoDaSorteDigital.Api.csproj", "{FECD124C-8440-4328-90DC-EC0EBBED9ACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrevoDaSorteDigital.Admin", "TrevoDaSorteDigital.Admin\TrevoDaSorteDigital.Admin.csproj", "{5FAC719F-8AFA-4833-87BD-BB99D11C92FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrevoDaSorteDigital.Afiliados", "TrevoDaSorteDigital.Afiliados\TrevoDaSorteDigital.Afiliados.csproj", "{54960B6C-DB6D-4FBD-A6CE-AFE1980E65D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrevoDaSorteDigital.Apostas", "TrevoDaSorteDigital.Apostas\TrevoDaSorteDigital.Apostas.csproj", "{EB89E57F-611D-46BC-A481-0DB2467F92DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrevoDaSorteDigital.Dao", "TrevoDaSorteDigital.Dao\TrevoDaSorteDigital.Dao.csproj", "{7F63C82C-004A-4E47-8FB1-DB5C5042D91A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FECD124C-8440-4328-90DC-EC0EBBED9ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FECD124C-8440-4328-90DC-EC0EBBED9ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FECD124C-8440-4328-90DC-EC0EBBED9ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FECD124C-8440-4328-90DC-EC0EBBED9ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FAC719F-8AFA-4833-87BD-BB99D11C92FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FAC719F-8AFA-4833-87BD-BB99D11C92FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FAC719F-8AFA-4833-87BD-BB99D11C92FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FAC719F-8AFA-4833-87BD-BB99D11C92FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54960B6C-DB6D-4FBD-A6CE-AFE1980E65D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54960B6C-DB6D-4FBD-A6CE-AFE1980E65D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54960B6C-DB6D-4FBD-A6CE-AFE1980E65D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54960B6C-DB6D-4FBD-A6CE-AFE1980E65D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB89E57F-611D-46BC-A481-0DB2467F92DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB89E57F-611D-46BC-A481-0DB2467F92DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB89E57F-611D-46BC-A481-0DB2467F92DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB89E57F-611D-46BC-A481-0DB2467F92DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F63C82C-004A-4E47-8FB1-DB5C5042D91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F63C82C-004A-4E47-8FB1-DB5C5042D91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F63C82C-004A-4E47-8FB1-DB5C5042D91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F63C82C-004A-4E47-8FB1-DB5C5042D91A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

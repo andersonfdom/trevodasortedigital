@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJlpvbtPKLU+zjLYAbb7nPAAAAAACAAAAAAAQZgAAAAEAACAAAACQ2yPC9NQTxPhkvFoEAclnjbopkn/CTjReNTslVWuXowAAAAAOgAAAAAIAACAAAABlP0ByxSSkH4BYzXcmBWBKxR1Ks2YJT9JWtkT0SAG9WUAAAADg/947HPPM5f8EJM78MU+IQdBPFl/Od16bSYp1GMtNaQacwySO3Wdoka0ztC9a7SeulBh0DdgCE3HJXIyI7xIXQAAAAHXB8u99aPmVqGbtCyI268y6hSVC216v+HoGdAvF2BLUxMjJUv9gHeC8vXHYHi0z47Oy34KNzm/hicy7Q7iWImk=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://177.136.228.216/admin.trevodasortedigital.com.br</_PublishTargetUrl>
+    <History>True|2025-02-12T22:34:00.8877712Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>02/06/2025 12:05:46</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>02/06/2025 12:05:46</publishTime>
+    </File>
+    <File Include="BouncyCastle.Cryptography.dll">
+      <publishTime>12/01/2024 13:14:48</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>11/11/2020 21:15:14</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:20:06</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>11/11/2020 21:14:40</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:16:28</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>11/11/2020 21:15:14</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:20:06</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>11/11/2020 21:14:42</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:16:28</publishTime>
+    </File>
+    <File Include="dotnet-aspnet-codegenerator-design.dll">
+      <publishTime>02/08/2021 22:32:20</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>11/11/2020 21:15:14</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:20:06</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>11/11/2020 21:14:42</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:16:28</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>11/11/2020 21:15:14</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:20:06</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>11/11/2020 21:14:42</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:16:28</publishTime>
+    </File>
+    <File Include="Humanizer.dll">
+      <publishTime>06/02/2020 10:07:58</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>11/11/2020 21:15:14</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:20:06</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>11/11/2020 21:14:42</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:16:28</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>11/11/2020 21:15:14</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:20:06</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>11/11/2020 21:14:42</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:16:28</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>11/11/2020 21:15:14</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:20:06</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>11/11/2020 21:14:42</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:16:28</publishTime>
+    </File>
+    <File Include="MailKit.dll">
+      <publishTime>01/26/2025 20:42:48</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Razor.Language.dll">
+      <publishTime>10/26/2020 19:58:46</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>04/14/2020 19:39:12</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>11/11/2020 21:15:12</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <publishTime>11/11/2020 21:20:06</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.dll">
+      <publishTime>11/11/2020 21:14:40</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Razor.dll">
+      <publishTime>10/26/2020 19:59:10</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.dll">
+      <publishTime>11/11/2020 21:16:26</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>04/12/2022 19:29:32</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>04/12/2022 19:29:46</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>04/12/2022 19:29:56</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>06/15/2021 16:12:46</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll">
+      <publishTime>02/08/2021 22:32:08</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
+      <publishTime>02/08/2021 22:32:16</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
+      <publishTime>02/08/2021 22:32:18</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
+      <publishTime>02/08/2021 22:32:18</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
+      <publishTime>02/08/2021 22:32:14</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
+      <publishTime>02/08/2021 22:32:12</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
+      <publishTime>02/08/2021 22:32:18</publishTime>
+    </File>
+    <File Include="MimeKit.dll">
+      <publishTime>01/26/2025 20:11:32</publishTime>
+    </File>
+    <File Include="MySqlConnector.dll">
+      <publishTime>10/02/2021 14:46:20</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/08/2023 04:09:56</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>11/11/2020 21:15:14</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:20:06</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>11/11/2020 21:14:42</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:16:28</publishTime>
+    </File>
+    <File Include="Pomelo.EntityFrameworkCore.MySql.dll">
+      <publishTime>01/22/2022 13:16:14</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>11/11/2020 21:15:14</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:20:06</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>11/11/2020 21:14:42</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:16:28</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>11/11/2020 21:15:14</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:20:06</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>11/11/2020 21:14:42</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:16:28</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/lib/net5.0/dotnet-aspnet-codegenerator-design.exe">
+      <publishTime>02/08/2021 22:32:20</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/lib/net5.0/dotnet-aspnet-codegenerator-design.exe">
+      <publishTime>02/08/2021 22:32:20</publishTime>
+    </File>
+    <File Include="System.Composition.AttributedModel.dll">
+      <publishTime>11/05/2016 02:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Convention.dll">
+      <publishTime>11/05/2016 02:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Hosting.dll">
+      <publishTime>11/05/2016 02:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Runtime.dll">
+      <publishTime>11/05/2016 02:55:44</publishTime>
+    </File>
+    <File Include="System.Composition.TypedParts.dll">
+      <publishTime>11/05/2016 02:55:46</publishTime>
+    </File>
+    <File Include="System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>12/11/2020 23:40:42</publishTime>
+    </File>
+    <File Include="System.Formats.Asn1.dll">
+      <publishTime>06/13/2024 16:43:42</publishTime>
+    </File>
+    <File Include="System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>10/22/2021 20:40:56</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.Pkcs.dll">
+      <publishTime>09/16/2024 20:15:36</publishTime>
+    </File>
+    <File Include="System.Text.Encoding.CodePages.dll">
+      <publishTime>10/31/2023 12:10:28</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>11/11/2020 21:15:14</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:20:06</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>11/11/2020 21:14:42</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:16:28</publishTime>
+    </File>
+    <File Include="TrevoDaSorteDigital.Admin.deps.json">
+      <publishTime>02/12/2025 19:38:39</publishTime>
+    </File>
+    <File Include="TrevoDaSorteDigital.Admin.dll">
+      <publishTime>02/12/2025 19:38:37</publishTime>
+    </File>
+    <File Include="TrevoDaSorteDigital.Admin.exe">
+      <publishTime>02/12/2025 19:38:37</publishTime>
+    </File>
+    <File Include="TrevoDaSorteDigital.Admin.pdb">
+      <publishTime>02/12/2025 19:38:37</publishTime>
+    </File>
+    <File Include="TrevoDaSorteDigital.Admin.runtimeconfig.json">
+      <publishTime>02/12/2025 19:32:28</publishTime>
+    </File>
+    <File Include="TrevoDaSorteDigital.Admin.Views.dll">
+      <publishTime>02/12/2025 19:38:38</publishTime>
+    </File>
+    <File Include="TrevoDaSorteDigital.Admin.Views.pdb">
+      <publishTime>02/12/2025 19:38:38</publishTime>
+    </File>
+    <File Include="TrevoDaSorteDigital.Dao.dll">
+      <publishTime>02/12/2025 19:19:50</publishTime>
+    </File>
+    <File Include="TrevoDaSorteDigital.Dao.pdb">
+      <publishTime>02/12/2025 19:19:50</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>02/12/2025 19:38:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/basic.css">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/bootstrap-fileupload.min.css">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/bootstrap-social.css">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/bootstrap.css">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/custom.css">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/error.css">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/font-awesome.css">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/invoice.css">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/prettyPhoto.css">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/pricing.css">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/wizard/jquery.steps.css">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/wizard/normalize.css">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/wizard/wizardMain.css">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/fonts/fontawesome-webfont.eot">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/fonts/fontawesome-webfont.svg">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/fonts/fontawesome-webfont.woff">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/fonts/FontAwesome.otf">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/background.jpg">
+      <publishTime>12/20/2024 17:50:37</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/btnEditar.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/btnEmail.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/btnExcluir.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/btnValidarConcurso.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/demoUpload.jpg">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/diadesorte.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/duplasena.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/loading.gif">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/logo-invoice.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/logo.jpg">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/lotofacil.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/lotomania.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/lupa.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/maismilionaria.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/megasena.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/portfolio/b.jpg">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/portfolio/c.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/portfolio/d.jpg">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/portfolio/e.jpg">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/portfolio/g.jpg">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/portfolio/h.jpg">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/dark_rounded/btnNext.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/dark_rounded/btnPrevious.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/dark_rounded/contentPattern.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/dark_rounded/default_thumbnail.gif">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/dark_rounded/loader.gif">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/dark_rounded/sprite.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/dark_square/btnNext.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/dark_square/btnPrevious.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/dark_square/contentPattern.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/dark_square/default_thumbnail.gif">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/dark_square/loader.gif">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/dark_square/sprite.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/default/default_thumb.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/default/loader.gif">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/default/sprite.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/default/sprite_next.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/default/sprite_prev.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/default/sprite_x.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/default/sprite_y.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/facebook/btnNext.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/facebook/btnPrevious.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/facebook/contentPatternBottom.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/facebook/contentPatternLeft.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/facebook/contentPatternRight.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/facebook/contentPatternTop.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/facebook/default_thumbnail.gif">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/facebook/loader.gif">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/facebook/sprite.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/light_rounded/btnNext.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/light_rounded/btnPrevious.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/light_rounded/default_thumbnail.gif">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/light_rounded/loader.gif">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/light_rounded/sprite.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/light_square/btnNext.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/light_square/btnPrevious.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/light_square/default_thumbnail.gif">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/light_square/loader.gif">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/prettyPhoto/light_square/sprite.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/quina.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/slideshow/1.jpg">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/slideshow/2.jpg">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/slideshow/3.jpg">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/supersete.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/timemania.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/user.gif">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/user.png">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/bootstrap-fileupload.js">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/bootstrap.js">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/custom.js">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/CustomApp.js">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/galleryCustom.js">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/jquery-1.10.2.js">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/jquery.mask.js">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/jquery.metisMenu.js">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/jquery.mixitup.min.js">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/jquery.prettyPhoto.js">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/wizard/jquery.cookie-1.3.1.js">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/wizard/jquery.steps.js">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/wizard/modernizr-2.6.2.min.js">
+      <publishTime>09/20/2024 09:56:11</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>02/12/2025 19:25:34</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>11/11/2020 21:15:14</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:20:06</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>11/11/2020 21:14:42</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:16:28</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>11/11/2020 21:15:14</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:20:06</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>11/11/2020 21:14:42</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <publishTime>11/11/2020 21:16:28</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

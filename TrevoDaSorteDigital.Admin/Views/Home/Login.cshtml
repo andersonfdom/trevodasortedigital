@@ -1,0 +1,285 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorte Digital - Admin</title>
+
+    <!-- BOOTSTRAP STYLES-->
+    <link href="~/assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLES-->
+    <link href="~/assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- GOOGLE FONTS-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <!-- /. FOOTER  -->
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="~/assets/js/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="~/assets/js/bootstrap.js"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="~/assets/js/jquery.metisMenu.js"></script>
+    <!-- CUSTOM SCRIPTS -->
+    <script src="~/assets/js/custom.js"></script>
+    <script src="~/assets/js/jquery.mask.js"></script>
+    <script>
+        $(function () {
+            $('#mensagemAlerta').hide();
+            $('#mensagemSucesso').hide();
+            $('#email').focus();
+
+            $('#btnEntrar').click(function () {
+                var dados = {
+                    login: $('#email').val(),
+                    senha: $('#senha').val(),
+                };
+
+                $.ajax({
+                    type: "POST",
+                    url: "https://api.trevodasortedigital.com.br/Usuarios/RetornarTokenLogin",
+                    datatype: "JSON",
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(dados),
+                    success: function (jsonResult) {
+                        var modal = document.getElementById("mLoading");
+                        modal.style.display = "block";
+
+                        if (jsonResult === "") {
+                            modal.style.display = "none";
+                            $('#mensagemAlerta').show();
+                            $('#mensagemAlerta').html("Login e/ou Senha inválidos.");
+                            window.setTimeout(function () {
+                                $('#mensagemAlerta').html("");
+                                $('#mensagemAlerta').hide();
+                                $('#email').val('');
+                                $('#senha').val('');
+                                $('#email').focus();
+                            }, 4000);
+                        } else {
+                            $('#mensagemAlerta').html("");
+                            $('#mensagemAlerta').hide();
+
+                            sessionStorage.setItem('tokenUsuario', jsonResult);
+                            window.location.href = "/Home/Index";
+                        }
+                    }
+                });
+            });
+
+            $('#btnRecuperarSenha').click(function () {
+                if ($('#email').val === '') {
+                    $('#mensagemAlerta').show();
+                    $('#mensagemAlerta').html("Preencha o e-mail.");
+                    $('#mensagemSucesso').hide();
+                    window.setTimeout(function () {
+                        $('#mensagemAlerta').hide();
+                        $('#mensagemSucesso').hide();
+                        $('#mensagemAlerta').val('');
+                        $('#mensagemSucesso').val('');
+                        $('#email').focus();
+                    }, 4000);
+                }
+
+                $.ajax({
+                    type: "POST",
+                    url: "https://api.trevodasortedigital.com.br/Usuarios/RecuperarEmailSenha?login=" + $('#email').val(),
+                    datatype: "JSON",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (jsonResult) {
+                        if (jsonResult.includes('enviado')) {
+                            $('#mensagemAlerta').hide();
+                            $('#mensagemSucesso').show();
+                            $('#mensagemSucesso').html(jsonResult);
+                            window.setTimeout(function () {
+                                $('#mensagemAlerta').hide();
+                                $('#mensagemSucesso').hide();
+                                $('#mensagemAlerta').val('');
+                                $('#mensagemSucesso').val('');
+                                $('#email').focus();
+                            }, 4000);
+                        } else {
+                            $('#mensagemAlerta').show();
+                            $('#mensagemAlerta').html(jsonResult);
+                            window.setTimeout(function () {
+                                $('#mensagemAlerta').hide();
+                                $('#mensagemSucesso').hide();
+                                $('#mensagemAlerta').val('');
+                                $('#mensagemSucesso').val('');
+                                $('#email').focus();
+                            }, 4000);
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+    <style>
+        body, .form-control, .modal {
+            background-color: #fff;
+        }
+
+        .btn, .btn:hover {
+            color: #fff;
+        }
+
+        h2 {
+            color: black;
+        }
+    </style>
+    <style>
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        /* Modal Content/Box */
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto; /* 15% from the top and centered */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; /* Could be more or less, depending on screen size */
+        }
+
+        /* The Close Button */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+            .close:hover,
+            .close:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+            .switch input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+            .slider:before {
+                position: absolute;
+                content: "";
+                height: 26px;
+                width: 26px;
+                left: 4px;
+                bottom: 4px;
+                background-color: white;
+                -webkit-transition: .4s;
+                transition: .4s;
+            }
+
+        input:checked + .slider {
+            background-color: #1F5079;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px #1F5079;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+        }
+
+        /* Rounded sliders */
+        .slider.round {
+            border-radius: 34px;
+        }
+
+            .slider.round:before {
+                border-radius: 50%;
+            }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body style="background-image: url('../assets/img/background.jpg')">
+    <div class="container">
+        <div class="row text-center " style="padding-top: 100px;">
+            <div class="col-md-12">
+                <div class="modal" id="mLoading">
+                    <div class="modal-dialog">
+                        <img class="img-rounded" src="~/assets/img/loading.gif" style="width: 200px; height: 200px" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <img class="img-rounded" src="~/assets/img/logo.jpg" style="width: 200px; height: 200px" />
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <div class="panel-body">
+                    <form role="form">
+                        <hr />
+                        <h2 style="font-weight:bold">Acesso Restrito Admin</h2>
+                        <div id="mensagemAlerta" class="alert alert-danger">
+                        </div>
+                        <div id="mensagemSucesso" class="alert alert-success">
+                        </div>
+                        <br />
+                        <div class="form-group input-group">
+                            <span class="input-group-addon"><i class="fa fa-tag"></i></span>
+                            <input type="email" id="email" class="form-control" placeholder="E-mail" />
+                        </div>
+                        <div class="form-group input-group">
+                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                            <input type="password" id="senha" class="form-control" placeholder="Senha" />
+                        </div>
+                        <div class="form-group">
+                            <span class="pull-left">
+                                <a style="font-weight:bold;color:black" id="btnRecuperarSenha" href="#">Esqueceu a senha ? </a>
+                            </span>
+                        </div>
+                        <input type="button" id="btnEntrar" value="Entrar" class="btn btn-primary btn-block" style="background-color: #008036;color: white;" />
+                        <br />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

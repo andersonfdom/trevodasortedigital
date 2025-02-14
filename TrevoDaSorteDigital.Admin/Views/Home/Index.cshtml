@@ -1,0 +1,363 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<style>
+    table {
+        border-collapse: separate;
+        border: solid black 1px;
+        border-radius: 6px;
+    }
+
+    td, th {
+        border-left: solid black 1px;
+        border-top: solid black 1px;
+    }
+
+    th {
+        background-color: blue;
+        border-top: none;
+    }
+
+        td:first-child, th:first-child {
+            border-left: none;
+        }
+</style>
+<script>
+    $(function () {
+        var modal = document.getElementById("mLoading");
+        modal.style.display = "block";
+
+        ObterResultadosMaisMilionaria();
+        ObterResultadosMegaSena();
+        ObterResultadosLotoFacil();
+        ObterResultadosQuina();
+        ObterResultadosLotoMania();
+        ObterResultadosTimeMania();
+        ObterResultadosDuplaSena();
+        ObterResultadosDiaDeSorte();
+        ObterResultadosSuperSete();
+
+        window.setTimeout(function () {
+            modal.style.display = "none";
+        },2000);
+    });
+
+    function ObterResultadosMaisMilionaria() {
+        $('#resultadoMaisMilionaria').empty();
+        const xhr = new XMLHttpRequest();
+        xhr.open("post", "https://api.trevodasortedigital.com.br/Loterias/BuscarResultadoPorUltimoConcurso?loteria=maismilionaria");
+        xhr.send();
+        xhr.responseType = "json";
+        xhr.onload = () => {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                var resposta = xhr.response;
+                var tagHtml = "<p><b style='color:#101451;font-weight:bold'>Concurso: </b>" + resposta.concurso + " <b style='color:#101451;font-weight:bold'>Data Sorteio: </b>" + resposta.data + "</p>"
+                tagHtml += "<p style = 'color:#101451;font-weight:bold'>Números Sorteados</p>";
+                tagHtml += "<p>";
+                $(resposta.dezenas).each(function () {
+                    tagHtml += this + " ";
+                });
+                tagHtml += "</p>";
+
+                tagHtml += "<p style = 'color:#101451;font-weight:bold'>Trevos</p>";
+                tagHtml += "<p>";
+                $(resposta.trevos).each(function () {
+                    tagHtml += this + " ";
+                });
+                tagHtml += "</p>";
+                tagHtml += "<p><b style='color:#101451;font-weight:bold'>Próximo Concurso: </b>" + resposta.proximoConcurso + " <b style='color:#101451;font-weight:bold'><br />Data Próximo Sorteio: </b>" + resposta.dataProximoConcurso + "</p>"
+
+                $('#resultadoMaisMilionaria').html(tagHtml);
+
+            } else {
+                console.log(`Error: ${xhr.status}`);
+            }
+        };
+    }
+
+    function ObterResultadosMegaSena() {
+        $('#resultadoMegaSena').empty();
+        const xhr = new XMLHttpRequest();
+        xhr.open("post", "https://api.trevodasortedigital.com.br/Loterias/BuscarResultadoPorUltimoConcurso?loteria=megasena");
+        xhr.send();
+        xhr.responseType = "json";
+        xhr.onload = () => {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                var resposta = xhr.response;
+                var tagHtml = "<p><b style='color:#209869;font-weight:bold'>Concurso: </b>" + resposta.concurso + " <b style='color:#209869;font-weight:bold'>Data Sorteio: </b>" + resposta.data + "</p>"
+                tagHtml += "<p style = 'color:#209869;font-weight:bold'>Números Sorteados</p>";
+                tagHtml += "<p>";
+                $(resposta.dezenas).each(function () {
+                    tagHtml += this + " ";
+                });
+                tagHtml += "</p>";
+                tagHtml += "<p><b style='color:#209869;font-weight:bold'>Próximo Concurso: </b>" + resposta.proximoConcurso + " <b style='color:#209869;font-weight:bold'><br />Data Próximo Sorteio: </b>" + resposta.dataProximoConcurso + "</p>"
+
+                $('#resultadoMegaSena').html(tagHtml);
+
+            } else {
+                console.log(`Error: ${xhr.status}`);
+            }
+        };
+    }
+
+    function ObterResultadosLotoFacil() {
+        $('#resultadoLotoFacil').empty();
+        const xhr = new XMLHttpRequest();
+        xhr.open("post", "https://api.trevodasortedigital.com.br/Loterias/BuscarResultadoPorUltimoConcurso?loteria=lotofacil");
+        xhr.send();
+        xhr.responseType = "json";
+        xhr.onload = () => {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                var resposta = xhr.response;
+                var tagHtml = "<p><b style='color:#930089;font-weight:bold'>Concurso: </b>" + resposta.concurso + " <b style='color:#930089;font-weight:bold'>Data Sorteio: </b>" + resposta.data + "</p>"
+                tagHtml += "<p style = 'color:#930089;font-weight:bold'>Números Sorteados</p>";
+                tagHtml += "<p>";
+                $(resposta.dezenas).each(function () {
+                    tagHtml += this + " ";
+                });
+                tagHtml += "</p>";
+                tagHtml += "<p><b style='color:#930089;font-weight:bold'>Próximo Concurso: </b>" + resposta.proximoConcurso + " <b style='color:#930089;font-weight:bold'><br />Data Próximo Sorteio: </b>" + resposta.dataProximoConcurso + "</p>"
+
+                $('#resultadoLotoFacil').html(tagHtml);
+
+            } else {
+                console.log(`Error: ${xhr.status}`);
+            }
+        };
+    }
+
+    function ObterResultadosQuina() {
+        $('#resultadoQuina').empty();
+        const xhr = new XMLHttpRequest();
+        xhr.open("post", "https://api.trevodasortedigital.com.br/Loterias/BuscarResultadoPorUltimoConcurso?loteria=quina");
+        xhr.send();
+        xhr.responseType = "json";
+        xhr.onload = () => {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                var resposta = xhr.response;
+                var tagHtml = "<p><b style='color:#2e3078;font-weight:bold'>Concurso: </b>" + resposta.concurso + " <b style='color:#2e3078;font-weight:bold'>Data Sorteio: </b>" + resposta.data + "</p>"
+                tagHtml += "<p style = 'color:#2e3078;font-weight:bold'>Números Sorteados</p>";
+                tagHtml += "<p>";
+                $(resposta.dezenas).each(function () {
+                    tagHtml += this + " ";
+                });
+                tagHtml += "</p>";
+                tagHtml += "<p><b style='color:#2e3078;font-weight:bold'>Próximo Concurso: </b>" + resposta.proximoConcurso + " <b style='color:#2e3078;font-weight:bold'><br />Data Próximo Sorteio: </b>" + resposta.dataProximoConcurso + "</p>"
+
+                $('#resultadoQuina').html(tagHtml);
+
+            } else {
+                console.log(`Error: ${xhr.status}`);
+            }
+        };
+    }
+
+    function ObterResultadosLotoMania() {
+        $('#resultadoLotoMania').empty();
+        const xhr = new XMLHttpRequest();
+        xhr.open("post", "https://api.trevodasortedigital.com.br/Loterias/BuscarResultadoPorUltimoConcurso?loteria=lotomania");
+        xhr.send();
+        xhr.responseType = "json";
+        xhr.onload = () => {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                var resposta = xhr.response;
+                var tagHtml = "<p><b style='color:#f78100;font-weight:bold'>Concurso: </b>" + resposta.concurso + " <b style='color:#f78100;font-weight:bold'>Data Sorteio: </b>" + resposta.data + "</p>"
+                tagHtml += "<p style = 'color:#f78100;font-weight:bold'>Números Sorteados</p>";
+                tagHtml += "<p>";
+                var contador = 0;
+
+                $(resposta.dezenas).each(function () {
+                    contador = contador + 1;
+
+                    if (contador >= 1 && contador <= 10) {
+                        tagHtml += this + " ";
+
+                        if (contador === 10) {
+                            tagHtml += "<br />"
+                        }
+                    }
+                    if (contador >= 11 && contador <= 20) {
+                        tagHtml += this + " ";
+
+                        if (contador === 10) {
+                            tagHtml += "<br />"
+                        }
+                    }
+                });
+
+                tagHtml += "</p>";
+                tagHtml += "<p><b style='color:#f78100;font-weight:bold'>Próximo Concurso: </b>" + resposta.proximoConcurso + " <b style='color:#f78100;font-weight:bold'><br />Data Próximo Sorteio: </b>" + resposta.dataProximoConcurso + "</p>"
+
+                $('#resultadoLotoMania').html(tagHtml);
+
+            } else {
+                console.log(`Error: ${xhr.status}`);
+            }
+        };
+    }
+
+    function ObterResultadosTimeMania() {
+        $('#resultadoTimeMania').empty();
+        const xhr = new XMLHttpRequest();
+        xhr.open("post", "https://api.trevodasortedigital.com.br/Loterias/BuscarResultadoPorUltimoConcurso?loteria=timemania");
+        xhr.send();
+        xhr.responseType = "json";
+        xhr.onload = () => {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                var resposta = xhr.response;
+
+                var tagHtml = "<p><b style='color:#00ff48;font-weight:bold'>Concurso: </b>" + resposta.concurso + " <b style='color:#00ff48;font-weight:bold'>Data Sorteio: </b>" + resposta.data + "</p>"
+                tagHtml += "<p style = 'color:#00ff48;font-weight:bold'>Números Sorteados</p>";
+                tagHtml += "<p>";
+                $(resposta.dezenas).each(function () {
+                    tagHtml += this + " ";
+                });
+                tagHtml += "</p>";
+                tagHtml += "<p><b style='color:#00ff48;font-weight:bold'>Time do Coração: </b>" + resposta.timeCoracao + "</p>"
+                tagHtml += "<p><b style='color:#00ff48;font-weight:bold'>Próximo Concurso: </b>" + resposta.proximoConcurso + " <b style='color:#00ff48;font-weight:bold'><br />Data Próximo Sorteio: </b>" + resposta.dataProximoConcurso + "</p>"
+
+                $('#resultadoTimeMania').html(tagHtml);
+
+            } else {
+                console.log(`Error: ${xhr.status}`);
+            }
+        };
+    }
+
+    function ObterResultadosDuplaSena() {
+        $('#resultadoDuplaSena').empty();
+        const xhr = new XMLHttpRequest();
+        xhr.open("post", "https://api.trevodasortedigital.com.br/Loterias/BuscarResultadoPorUltimoConcurso?loteria=duplasena");
+        xhr.send();
+        xhr.responseType = "json";
+        xhr.onload = () => {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                var resposta = xhr.response;
+                var tagHtml = "<p><b style='color:#bf194e;font-weight:bold'>Concurso: </b>" + resposta.concurso + " <b style='color:#bf194e;font-weight:bold'>Data Sorteio: </b>" + resposta.data + "</p>"
+                tagHtml += "<p style = 'color:#bf194e;font-weight:bold'>Números Sorteados</p>";
+                tagHtml += "<p>";
+                $(resposta.dezenas).each(function () {
+                    tagHtml += this + " ";
+                });
+                tagHtml += "</p>";
+                tagHtml += "<p><b style='color:#bf194e;font-weight:bold'>Próximo Concurso: </b>" + resposta.proximoConcurso + " <b style='color:#bf194e;font-weight:bold'><br />Data Próximo Sorteio: </b>" + resposta.dataProximoConcurso + "</p>"
+
+                $('#resultadoDuplaSena').html(tagHtml);
+
+            } else {
+                console.log(`Error: ${xhr.status}`);
+            }
+        };
+    }
+
+    function ObterResultadosDiaDeSorte() {
+        $('#resultadoDiaDeSorte').empty();
+        const xhr = new XMLHttpRequest();
+        xhr.open("post", "https://api.trevodasortedigital.com.br/Loterias/BuscarResultadoPorUltimoConcurso?loteria=diadesorte");
+        xhr.send();
+        xhr.responseType = "json";
+        xhr.onload = () => {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                var resposta = xhr.response;
+
+                var tagHtml = "<p><b style='color:#cb852b;font-weight:bold'>Concurso: </b>" + resposta.concurso + " <b style='color:#cb852b;font-weight:bold'>Data Sorteio: </b>" + resposta.data + "</p>"
+                tagHtml += "<p style = 'color:#cb852b;font-weight:bold'>Números Sorteados</p>";
+                tagHtml += "<p>";
+                $(resposta.dezenas).each(function () {
+                    tagHtml += this + " ";
+                });
+                tagHtml += "</p>";
+                tagHtml += "<p><b style='color:#cb852b;font-weight:bold'>Mês da Sorte: </b>" + resposta.mesSorte + "</p>"
+                tagHtml += "<p><b style='color:#cb852b;font-weight:bold'>Próximo Concurso: </b>" + resposta.proximoConcurso + " <b style='color:#cb852b;font-weight:bold'><br />Data Próximo Sorteio: </b>" + resposta.dataProximoConcurso + "</p>"
+
+                $('#resultadoDiaDeSorte').html(tagHtml);
+
+            } else {
+                console.log(`Error: ${xhr.status}`);
+            }
+        };
+    }
+
+    function ObterResultadosSuperSete() {
+        $('#resultadoSuperSete').empty();
+        const xhr = new XMLHttpRequest();
+        xhr.open("post", "https://api.trevodasortedigital.com.br/Loterias/BuscarResultadoPorUltimoConcurso?loteria=supersete");
+        xhr.send();
+        xhr.responseType = "json";
+        xhr.onload = () => {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                var resposta = xhr.response;
+
+                var resposta = xhr.response;
+                var tagHtml = "<p><b style='color:#a8cf44;font-weight:bold'>Concurso: </b>" + resposta.concurso + " <b style='color:#a8cf44;font-weight:bold'>Data Sorteio: </b>" + resposta.data + "</p>"
+                tagHtml += "<p style = 'color:#a8cf44;font-weight:bold'>Números Sorteados</p>";
+                tagHtml += "<p>";
+                var contador = 0;
+                $(resposta.dezenas).each(function () {
+                    contador = contador + 1;
+                    tagHtml += "<b style='color:#a8cf44;font-weight:bold'>Coluna " + contador + ": </b>" + this + " <br />";
+                });
+                tagHtml += "</p>";
+                tagHtml += "<p><b style='color:#a8cf44;font-weight:bold'>Próximo Concurso: </b>" + resposta.proximoConcurso + " <b style='color:#a8cf44;font-weight:bold'><br />Data Próximo Sorteio: </b>" + resposta.dataProximoConcurso + "</p>"
+
+                $('#resultadoSuperSete').html(tagHtml);
+
+            } else {
+                console.log(`Error: ${xhr.status}`);
+            }
+        };
+    }
+</script>
+<div class="row">
+    <div class="col-md-4">
+        <p><img src="~/assets/img/maismilionaria.png" class="img-rounded" /></p>
+        <div id="resultadoMaisMilionaria" style="width:100%">
+        </div>
+    </div>
+    <div class="col-md-4">
+        <p><img src="~/assets/img/megasena.png" class="img-rounded" /></p>
+        <div id="resultadoMegaSena" style="width:100%">
+        </div>
+    </div>
+    <div class="col-md-4">
+        <p><img src="~/assets/img/lotofacil.png" class="img-rounded" /></p>
+        <div id="resultadoLotoFacil" style="width:100%">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <p><img src="~/assets/img/quina.png" class="img-rounded" /></p>
+        <div id="resultadoQuina" style="width:100%">
+        </div>
+    </div>
+    <div class="col-md-4">
+        <p><img src="~/assets/img/lotomania.png" class="img-rounded" /></p>
+        <div id="resultadoLotoMania" style="width:100%">
+        </div>
+    </div>
+    <div class="col-md-4">
+        <p><img src="~/assets/img/timemania.png" class="img-rounded" /></p>
+        <div id="resultadoTimeMania" style="width:100%">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <p><img src="~/assets/img/duplasena.png" class="img-rounded" /></p>
+        <div id="resultadoDuplaSena" style="width:100%">
+        </div>
+    </div>
+    <div class="col-md-4">
+        <p><img src="~/assets/img/diadesorte.png" class="img-rounded" /></p>
+        <div id="resultadoDiaDeSorte" style="width:100%">
+        </div>
+    </div>
+    <div class="col-md-4">
+        <p><img src="~/assets/img/supersete.png" class="img-rounded" /></p>
+        <div id="resultadoSuperSete" style="width:100%">
+        </div>
+    </div>
+</div>

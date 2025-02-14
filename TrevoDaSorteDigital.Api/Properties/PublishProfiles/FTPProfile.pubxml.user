@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJlpvbtPKLU+zjLYAbb7nPAAAAAACAAAAAAAQZgAAAAEAACAAAAAI2Fv1FLdKlIUOdfRCvFzAMSsz6tdfQ53n1qH31JWx5wAAAAAOgAAAAAIAACAAAAC8oGQCGqMVmxvILXfmiw22YuKbcra0h2/KcXBfo7ImdSAAAAAve8mJM3GlMRO8sjeucqbI0T/gbSuqRK9xMgPWGguHJEAAAABf1en46eRjQNoCxnfcYB7NGfK2JJkBA2n7bSJFnE6Q/m11gaxNBrjMFX4dcuvfsuZKdPfMdSXPc1TKqDYRq+Ut</EncryptedPassword>
+    <_PublishTargetUrl>ftp://177.136.228.216/api.trevodasortedigital.com.br</_PublishTargetUrl>
+    <History>True|2025-02-12T22:22:22.7756906Z||;False|2025-02-12T19:22:05.1616229-03:00||;True|2025-02-12T19:20:18.4410787-03:00||;False|2025-02-12T19:19:57.4358895-03:00||;True|2025-02-12T18:50:08.6273764-03:00||;True|2025-02-12T17:55:50.0282917-03:00||;False|2025-02-12T17:55:31.0288870-03:00||;False|2025-02-12T17:54:26.4419468-03:00||;True|2025-02-12T17:25:40.7610445-03:00||;False|2025-02-12T17:25:22.3843373-03:00||;True|2025-02-12T17:12:30.3923526-03:00||;False|2025-02-12T17:11:56.1987150-03:00||;True|2025-02-12T16:22:02.9014997-03:00||;False|2025-02-12T16:21:08.5579208-03:00||;True|2025-02-12T16:19:06.8813004-03:00||;False|2025-02-12T16:18:36.0774730-03:00||;True|2025-02-12T16:09:49.1072935-03:00||;False|2025-02-12T16:09:07.5097939-03:00||;True|2025-02-12T16:07:03.1795957-03:00||;False|2025-02-12T16:06:24.6917193-03:00||;True|2025-02-12T16:04:54.0274089-03:00||;False|2025-02-12T16:04:30.9502716-03:00||;True|2025-02-12T16:00:23.9996526-03:00||;False|2025-02-12T16:00:01.6646916-03:00||;True|2025-02-12T15:55:18.3212052-03:00||;True|2025-02-12T15:48:40.7707961-03:00||;True|2025-02-12T15:39:32.0100920-03:00||;False|2025-02-12T15:39:01.7765711-03:00||;True|2025-02-12T15:19:43.4300512-03:00||;True|2025-02-12T14:43:45.4166116-03:00||;False|2025-02-12T14:42:43.3541719-03:00||;True|2025-02-12T14:36:57.1237077-03:00||;True|2025-02-05T19:01:52.3826431-03:00||;False|2025-02-05T19:00:55.6896446-03:00||;True|2025-02-05T18:56:37.1466898-03:00||;False|2025-02-05T18:56:09.4650704-03:00||;True|2025-02-05T18:54:09.3508445-03:00||;True|2025-02-05T11:05:20.5099972-03:00||;True|2025-02-04T16:07:38.3104857-03:00||;True|2025-02-04T15:41:01.3928919-03:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>02/04/2025 15:07:44</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>02/04/2025 15:07:44</publishTime>
+    </File>
+    <File Include="BouncyCastle.Cryptography.dll">
+      <publishTime>12/01/2024 13:14:48</publishTime>
+    </File>
+    <File Include="MailKit.dll">
+      <publishTime>01/26/2025 20:42:48</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>04/12/2022 19:29:32</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>04/12/2022 19:29:46</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>04/12/2022 19:29:56</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>06/15/2021 16:12:46</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>08/29/2020 17:14:12</publishTime>
+    </File>
+    <File Include="MimeKit.dll">
+      <publishTime>01/26/2025 20:11:32</publishTime>
+    </File>
+    <File Include="MySqlConnector.dll">
+      <publishTime>10/02/2021 14:46:20</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/08/2023 04:09:56</publishTime>
+    </File>
+    <File Include="Pomelo.EntityFrameworkCore.MySql.dll">
+      <publishTime>01/22/2022 13:16:14</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>09/23/2020 09:47:20</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>09/23/2020 09:47:22</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>09/23/2020 09:47:24</publishTime>
+    </File>
+    <File Include="System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>12/11/2020 23:40:42</publishTime>
+    </File>
+    <File Include="System.Formats.Asn1.dll">
+      <publishTime>06/13/2024 16:43:42</publishTime>
+    </File>
+    <File Include="System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>10/22/2021 20:40:56</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.Pkcs.dll">
+      <publishTime>09/16/2024 20:15:36</publishTime>
+    </File>
+    <File Include="System.Text.Encoding.CodePages.dll">
+      <publishTime>10/31/2023 12:10:28</publishTime>
+    </File>
+    <File Include="TrevoDaSorteDigital.Api.deps.json">
+      <publishTime>02/12/2025 19:22:10</publishTime>
+    </File>
+    <File Include="TrevoDaSorteDigital.Api.dll">
+      <publishTime>02/12/2025 19:22:10</publishTime>
+    </File>
+    <File Include="TrevoDaSorteDigital.Api.exe">
+      <publishTime>02/12/2025 19:22:10</publishTime>
+    </File>
+    <File Include="TrevoDaSorteDigital.Api.pdb">
+      <publishTime>02/12/2025 19:22:10</publishTime>
+    </File>
+    <File Include="TrevoDaSorteDigital.Api.runtimeconfig.json">
+      <publishTime>02/12/2025 14:36:41</publishTime>
+    </File>
+    <File Include="TrevoDaSorteDigital.Dao.dll">
+      <publishTime>02/12/2025 19:19:50</publishTime>
+    </File>
+    <File Include="TrevoDaSorteDigital.Dao.pdb">
+      <publishTime>02/12/2025 19:19:50</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>02/12/2025 19:22:10</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
