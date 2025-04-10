@@ -6,7 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface AfiliadosDao extends JpaRepository<Afiliados, Integer> {
-    // Você pode adicionar métodos personalizados para consultas específicas, se necessário
-    // Exemplo:
-    // Afiliados findByEmail(String email);
+    Afiliados findByEmail(String email);
+    Afiliados findByToken(String token);
 }

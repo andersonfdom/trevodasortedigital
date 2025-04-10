@@ -22,7 +22,7 @@ public class Afiliados {
     private Integer usuariologado;
     private LocalDateTime ultimoacesso;
     private String serialrecovery;
-    private String tokenacesso;
+    private String token;
     private Integer ativo;
 
     // Você pode adicionar relacionamentos com outras entidades aqui

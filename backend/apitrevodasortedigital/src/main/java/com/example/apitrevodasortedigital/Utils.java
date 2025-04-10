@@ -53,9 +53,9 @@ public class Utils {
 
     public boolean emailEnviado(String emailDestino, String subject, String body) {
         try {
-            String host = "trevodasortedigital.com.br";
+            String host = "mail.trevodasortedigital.com.br";
             String from = "contato@trevodasortedigital.com.br";
-            String password = "TrevoDaSorteDigital@2024";
+            String password = "TrevoDaSorteDigital@2025";
 
             Properties properties = System.getProperties();
             properties.setProperty("mail.smtp.host", host);
@@ -84,6 +84,7 @@ public class Utils {
         }
     }
 
+    /*
     public String montarCorpoEmailRecSenha(String serial) {
         String corpoEmail = "";
 
@@ -101,7 +102,6 @@ public class Utils {
         return corpoEmail;
     }
 
-    /*
     public String montarCorpoEmailGerarSenhaAcesso(Cliente cliente) throws Exception {
         String corpoEmail = "";
 
